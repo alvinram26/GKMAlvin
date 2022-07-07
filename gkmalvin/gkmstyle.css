@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Quicksand:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+body {
+    font-family: quicksand;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+ }
+
+ h1 {
+    font-weight: bold;
+    font-size: 50px;
+ }
+ h2 {
+    color: #546489
+ }
+
+ footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    background-color: #47627e;
+    
+ }
+
+ nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.list{
+   list-style: none;
+   text-align: center;
+}
+.link {
+   display:inline-block;
+   margin-block: 2px;
+   
+}
+
+
+.profile header {
+   text-align: center;
+}
+
+.profile{
+   padding: 60px;
+}
+
+.profile img {
+   width: 250px;
+}
+
+.card {
+   box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 20px;
+
+   transition: box-shadow .25s ease-in;
+}
+.card:hover {
+box-shadow:
+#a2b2c2 7px 5px,
+#c2ced9 12px 8px,
+#e2e7eb  17px 11px;
+}  
+
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #a2b2c2;
+   text-align: center;
+   color: white;
+   box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.2);
+   border-bottom-right-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: #47627e;
+   padding: 5px;
+   box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: url("logo_amikom_full_color.png");
+}
+
+main {
+   padding: 35px;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+   text-align: center;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+* {
+   box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+  }  
+@media screen and (max-width: 600px) {  
+  }
+  @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+nav {
+   background-color: #47627e;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+header {
+   display: inline;
+}
+.header {
+   padding: 15px;
+}
+
+.fa-instagram {
+   color: white;
+   width: 30px;
+}
+.fa-youtube {
+   color: white;
+   width: 30px;
+ }
+ .fa-envelope {
+   color: white;
+   width: 30px;
+ }
+ .bi-whatsapp {
+     color: white;
+     width: 30px;
+ }
+
+ 
